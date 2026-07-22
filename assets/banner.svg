@@ -1,78 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Longno">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0a0c10"/>
-      <stop offset="55%" stop-color="#10151c"/>
       <stop offset="100%" stop-color="#0c1218"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#2dd4bf"/>
       <stop offset="100%" stop-color="#38bdf8"/>
-    </linearGradient>
-    <linearGradient id="glow" x1="0%" y1="50%" x2="100%" y2="50%">
-      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#2dd4bf" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </linearGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <path d="M32 0H0V32" fill="none" stroke="#1e293b" stroke-width="1" opacity="0.55"/>
     </pattern>
-    <clipPath id="frame">
-      <rect width="1200" height="360" rx="18"/>
-    </clipPath>
   </defs>
 
-  <g clip-path="url(#frame)">
-    <rect width="1200" height="360" fill="url(#bg)"/>
-    <rect width="1200" height="360" fill="url(#grid)" opacity="0.7"/>
+  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#grid)" opacity="0.7"/>
+  <rect x="0" y="0" width="1200" height="3" fill="url(#accent)"/>
 
-    <!-- soft corner glow -->
-    <circle cx="1080" cy="40" r="180" fill="#2dd4bf" opacity="0.06"/>
-    <circle cx="80" cy="320" r="160" fill="#38bdf8" opacity="0.05"/>
+  <rect x="72" y="118" width="72" height="72" rx="14" fill="#111827" stroke="#2dd4bf" stroke-width="2"/>
+  <path d="M90 166V142h12l14 18V142h10v24h-12l-14-18v18h-10z" fill="url(#accent)"/>
 
-    <!-- top accent line -->
-    <rect x="0" y="0" width="1200" height="3" fill="url(#accent)"/>
+  <text x="172" y="158" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">Longno</text>
+  <text x="172" y="198" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="22">Systems  |  Game tooling  |  Desktop apps</text>
 
-    <!-- mark -->
-    <g transform="translate(72, 118)">
-      <rect x="0" y="0" width="72" height="72" rx="14" fill="#111827" stroke="#2dd4bf" stroke-width="2" opacity="0.95"/>
-      <path d="M18 48V24h12l14 18V24h10v24H42L28 30v18H18z" fill="url(#accent)"/>
-    </g>
+  <rect x="172" y="230" width="78" height="32" rx="16" fill="#0f172a" stroke="#334155"/>
+  <text x="211" y="251" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">C++20</text>
+  <rect x="262" y="230" width="92" height="32" rx="16" fill="#0f172a" stroke="#334155"/>
+  <text x="308" y="251" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">IL2CPP</text>
+  <rect x="366" y="230" width="118" height="32" rx="16" fill="#0f172a" stroke="#334155"/>
+  <text x="425" y="251" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">Anti-Cheat</text>
+  <rect x="496" y="230" width="108" height="32" rx="16" fill="#0f172a" stroke="#334155"/>
+  <text x="550" y="251" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">Encryptic</text>
 
-    <!-- title -->
-    <text x="172" y="158" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="64" font-weight="700" fill="#f8fafc" letter-spacing="1.5">Longno</text>
-    <text x="172" y="198" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" fill="#94a3b8">Systems · Game tooling · Desktop apps</text>
-
-    <!-- pill tags -->
-    <g font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#cbd5e1">
-      <rect x="172" y="230" width="78" height="32" rx="16" fill="#0f172a" stroke="#334155"/>
-      <text x="211" y="251" text-anchor="middle">C++20</text>
-
-      <rect x="262" y="230" width="92" height="32" rx="16" fill="#0f172a" stroke="#334155"/>
-      <text x="308" y="251" text-anchor="middle">IL2CPP</text>
-
-      <rect x="366" y="230" width="118" height="32" rx="16" fill="#0f172a" stroke="#334155"/>
-      <text x="425" y="251" text-anchor="middle">Anti-Cheat</text>
-
-      <rect x="496" y="230" width="108" height="32" rx="16" fill="#0f172a" stroke="#334155"/>
-      <text x="550" y="251" text-anchor="middle">Encryptic</text>
-    </g>
-
-    <!-- right status panel -->
-    <g transform="translate(820, 110)">
-      <rect width="300" height="160" rx="16" fill="#0b1220" stroke="#1e293b" stroke-width="1.5"/>
-      <rect x="0" y="0" width="300" height="3" rx="1.5" fill="url(#accent)"/>
-      <text x="24" y="42" font-family="Consolas, Menlo, monospace" font-size="13" fill="#64748b">STATUS</text>
-      <circle cx="250" cy="36" r="5" fill="#2dd4bf"/>
-      <text x="262" y="41" font-family="Consolas, Menlo, monospace" font-size="12" fill="#2dd4bf">online</text>
-
-      <text x="24" y="78" font-family="Consolas, Menlo, monospace" font-size="15" fill="#e2e8f0">building tools that</text>
-      <text x="24" y="102" font-family="Consolas, Menlo, monospace" font-size="15" fill="#e2e8f0">read the runtime,</text>
-      <text x="24" y="126" font-family="Consolas, Menlo, monospace" font-size="15" fill="#e2e8f0">not the brochure.</text>
-      <text x="24" y="150" font-family="Consolas, Menlo, monospace" font-size="12" fill="#64748b">longno.co.uk</text>
-    </g>
-
-    <!-- bottom glow -->
-    <rect x="0" y="348" width="1200" height="12" fill="url(#glow)"/>
-  </g>
+  <rect x="820" y="110" width="300" height="160" rx="16" fill="#0b1220" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="820" y="110" width="300" height="3" fill="url(#accent)"/>
+  <text x="844" y="152" fill="#64748b" font-family="Consolas, monospace" font-size="13">STATUS</text>
+  <circle cx="1070" cy="146" r="5" fill="#2dd4bf"/>
+  <text x="1082" y="151" fill="#2dd4bf" font-family="Consolas, monospace" font-size="12">online</text>
+  <text x="844" y="188" fill="#e2e8f0" font-family="Consolas, monospace" font-size="15">building tools that</text>
+  <text x="844" y="212" fill="#e2e8f0" font-family="Consolas, monospace" font-size="15">read the runtime,</text>
+  <text x="844" y="236" fill="#e2e8f0" font-family="Consolas, monospace" font-size="15">not the brochure.</text>
+  <text x="844" y="260" fill="#64748b" font-family="Consolas, monospace" font-size="12">longno.co.uk</text>
 </svg>
