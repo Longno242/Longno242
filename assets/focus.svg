@@ -1,9 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="420" height="180" viewBox="0 0 420 180">
   <rect width="420" height="180" rx="14" fill="#0b1220" stroke="#1e293b"/>
   <rect width="420" height="3" fill="#2dd4bf"/>
   <text x="24" y="40" fill="#2dd4bf" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2">FOCUS</text>
-  <text x="24" y="78" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="16">Runtime tooling &amp; reverse eng</text>
+  <text x="24" y="78" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="16">Runtime tooling and reverse eng</text>
   <text x="24" y="104" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="16">Anti-cheat prototypes</text>
   <text x="24" y="130" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="16">Desktop apps (Encryptic)</text>
-  <text x="24" y="158" fill="#64748b" font-family="Consolas, monospace" font-size="12">shipping · iterating · open source</text>
+  <text x="24" y="158" fill="#64748b" font-family="Consolas, monospace" font-size="12">shipping | iterating | open source</text>
 </svg>

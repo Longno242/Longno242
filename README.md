@@ -72,9 +72,9 @@ I build low-level Windows tooling, Unity / IL2CPP utilities, anti-cheat prototyp
 ## Snapshot
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Longno242/Longno242/main/assets/focus.svg" alt="Focus" height="180" />
+  <img src="https://raw.githubusercontent.com/Longno242/Longno242/main/assets/focus.svg?v=2" alt="Focus" height="180" />
   &nbsp;
-  <img src="https://raw.githubusercontent.com/Longno242/Longno242/main/assets/langs.svg" alt="Languages" height="180" />
+  <img src="https://raw.githubusercontent.com/Longno242/Longno242/main/assets/langs.svg?v=2" alt="Languages" height="180" />
   <br/><br/>
   <img src="https://raw.githubusercontent.com/Longno242/Longno242/main/assets/divider.svg" alt="" width="520" />
   <br/><br/>
