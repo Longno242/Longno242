@@ -14,7 +14,7 @@
 
 ### About
 
-I build low-level Windows tooling, Unity / IL2CPP utilities, anti-cheat prototypes, and desktop products under **Encryptic**.
+Encryptic is a development group dedicated to building powerful applications, game tools, and open-source software. From low-level native projects to desktop applications, we create software that's built to last.
 
 **native C++** · **runtime introspection** · **apps that ship**
 
