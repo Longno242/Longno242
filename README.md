@@ -1,3 +1,8 @@
+
+# SOME REPOSITORIES HAVE BEEN TAKEN DOWN MY THE REQUEST OF GITHUB HOPEFULLY CAN BE FIXED SOON
+
+
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/Longno242/Longno242/main/assets/banner.svg" alt="Longno" width="100%" />
   <br/><br/>
