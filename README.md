@@ -1,9 +1,3 @@
-
-# Some of projects eg. IL2CPP DUMPER ect has been moved to my site with source and release due to github TOS
-
-https://longnocloud.lovable.app/
-
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/Longno242/Longno242/main/assets/banner.svg" alt="Longno" width="100%" />
   <br/><br/>
